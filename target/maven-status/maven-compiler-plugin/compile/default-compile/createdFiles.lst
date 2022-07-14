@@ -1,0 +1,5 @@
+modules\Alza.class
+pages\AlzaPage.class
+PracticeTest.class
+utilities\Properties.class
+utilities\CommonActions.class

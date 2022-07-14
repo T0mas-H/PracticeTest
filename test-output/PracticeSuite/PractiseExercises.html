@@ -1,0 +1,222 @@
+<html>
+<head>
+<title>TestNG:  PractiseExercises</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PractiseExercises</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 14 22:16:05 CEST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>28 seconds (28211 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='PracticeTest.exercise_2()'><b>exercise_2</b><br>Test class: PracticeTest<br/>
+<a href="#Output-1934908288" onClick='toggleBox("Output-1934908288", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1934908288" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1934908288">
+2022-07-14T22:16:10.622537900: navigate to page: https://alza.sk<br/>
+2022-07-14T22:16:14.061680600Waiting for element: By.xpath: //a[contains(@class,'accept')]<br/>
+2022-07-14T22:16:14.086227100Clicking at element: By.xpath: //a[contains(@class,'accept')]<br/>
+2022-07-14T22:16:14.181929600: navigate Smart devices and Phones<br/>
+2022-07-14T22:16:14.181929600Waiting for element: By.xpath: //a[@href='/mobily-smart-hodinky-tablety']<br/>
+2022-07-14T22:16:14.226834600Clicking at element: By.xpath: //a[@href='/mobily-smart-hodinky-tablety']<br/>
+2022-07-14T22:16:15.230252700Waiting for element: By.xpath: //div[@class='category-tree']//a[contains(@href,'/mobily/')]<br/>
+2022-07-14T22:16:15.373137400Clicking at element: By.xpath: //div[@class='category-tree']//a[contains(@href,'/mobily/')]<br/>
+2022-07-14T22:16:17.478989900: open most expensive products<br/>
+2022-07-14T22:16:17.480138600Waiting for element: By.xpath: //a[@href='#cenadesc']<br/>
+2022-07-14T22:16:17.743770700Clicking at element: By.xpath: //a[@href='#cenadesc']<br/>
+2022-07-14T22:16:17.895263100Waiting for element: By.xpath: //div[@id='boxes']/div<br/>
+2022-07-14T22:16:17.997560800: adding product to basket<br/>
+2022-07-14T22:16:17.997560800 Wait for Web Element to be Clickable, max : 10 s<br/>
+2022-07-14T22:16:20.948398800Clicking at element: By.xpath: //div[@id='boxes']/div[1]//a[@data-lb-action]<br/>
+2022-07-14T22:16:24.590807500: adding product to basket<br/>
+2022-07-14T22:16:24.590807500 Wait for Web Element to be Clickable, max : 10 s<br/>
+2022-07-14T22:16:25.969885300Clicking at element: By.xpath: //div[@id='boxes']/div[2]//a[@data-lb-action]<br/>
+2022-07-14T22:16:27.731253400: navigate Smart devices and Phones<br/>
+2022-07-14T22:16:27.731753200Clicking at element: By.xpath: //div[@id='basket']<br/>
+2022-07-14T22:16:28.763780100Waiting for element: By.xpath: //div[@id='orderpage']<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>PracticeTest@2d2ffcb7</td></tr>
+<tr>
+<td title='PracticeTest.exercise_1()'><b>exercise_1</b><br>Test class: PracticeTest<br/>
+<a href="#Output-1875532039" onClick='toggleBox("Output-1875532039", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1875532039" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1875532039">
+Agile<br/>
+Software<br/>
+98<br/>
+97<br/>
+Software<br/>
+Agile<br/>
+94<br/>
+Software<br/>
+92<br/>
+91<br/>
+Testing<br/>
+89<br/>
+88<br/>
+Software<br/>
+86<br/>
+Agile<br/>
+Software<br/>
+83<br/>
+82<br/>
+Software<br/>
+Agile<br/>
+79<br/>
+Software<br/>
+77<br/>
+76<br/>
+Testing<br/>
+74<br/>
+73<br/>
+Software<br/>
+71<br/>
+Agile<br/>
+Software<br/>
+68<br/>
+67<br/>
+Software<br/>
+Agile<br/>
+64<br/>
+Software<br/>
+62<br/>
+61<br/>
+Testing<br/>
+59<br/>
+58<br/>
+Software<br/>
+56<br/>
+Agile<br/>
+Software<br/>
+53<br/>
+52<br/>
+Software<br/>
+Agile<br/>
+49<br/>
+Software<br/>
+47<br/>
+46<br/>
+Testing<br/>
+44<br/>
+43<br/>
+Software<br/>
+41<br/>
+Agile<br/>
+Software<br/>
+38<br/>
+37<br/>
+Software<br/>
+Agile<br/>
+34<br/>
+Software<br/>
+32<br/>
+31<br/>
+Testing<br/>
+29<br/>
+28<br/>
+Software<br/>
+26<br/>
+Agile<br/>
+Software<br/>
+23<br/>
+22<br/>
+Software<br/>
+Agile<br/>
+19<br/>
+Software<br/>
+17<br/>
+16<br/>
+Testing<br/>
+14<br/>
+13<br/>
+Software<br/>
+11<br/>
+Agile<br/>
+Software<br/>
+8<br/>
+7<br/>
+Software<br/>
+Agile<br/>
+4<br/>
+Software<br/>
+2<br/>
+1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>PracticeTest@2d2ffcb7</td></tr>
+</table><p>
+</body>
+</html>
